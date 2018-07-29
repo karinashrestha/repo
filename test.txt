@@ -8,23 +8,23 @@
 task main()
 {
 
-motor(LDrive) = 60;
-motor(RDrive) = 60;
+motor(LDrive) = 80;
+motor(RDrive) = 80;
 wait1Msec(1000);
 //nMotorEncoder(LDrive) = 0;
-motor(LDrive) = -60;
-motor(RDrive) =60;
+motor(LDrive) = -80;
+motor(RDrive) =80;
 wait1Msec(1000); //Turn left for 1s
-motor(LDrive) = 60;
-motor(RDrive) = 60;
+motor(LDrive) = 80;
+motor(RDrive) = 80;
 wait1Msec(5000); //Go forward 5s
-motor(LDrive) = -60;
-motor(RDrive) =60;
+motor(LDrive) = -80;
+motor(RDrive) =80;
 wait1Msec(1000); //Turn left for 1s
-motor(LDrive) = 60;
-motor(RDrive) = 60;
+motor(LDrive) = 80;
+motor(RDrive) = 80;
 wait1Msec(5000); //Go forward 5s
-motor(LDrive) = 0;
-motor(RDrive) = 0;
+motor(LDrive) = 80;
+motor(RDrive) = 80;
 
 }
